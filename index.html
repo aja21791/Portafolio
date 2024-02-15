@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Mi Portafolio</a>
+      <nav class="navbar">
+        <a href="#home" class="active">Inicio</a>
+        <a href="#about">Acerca de</a>
+        <a href="#services">Servicios</a>
+        <a href="#portfolio">Portafolio</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>¡Hola! Soy</h3>
+        <h1>Manuel Ajanel</h1>
+        <p>
+          Graduado de Técnico Universitario en Informática, estudiante de
+          Licenciatura en Sistemas Informáticos en la Universidad del Valle de
+          Guatemala.
+        </p>
+        <div class="social-media">
+          <a href="https://github.com/4janel"><i class="bx bxl-github"></i></a>
+          <a href="https://gt.linkedin.com/in/manuel-ajanel"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <a href="src/CV.pdf" class="btn" download="CV-Manuel-Alexander-Ajanel"
+          >Descargar CV</a
+        >
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-user"></i>
+            <h3>Técnico en Sistemas</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-code-alt"></i>
+            <h3>Desarrollador</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bx-hard-hat"></i>
+            <h3>Redes</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-chip"></i>
+            <h3>Tecnología</h3>
+          </div>
+          <div class="circle"></div>
+        </div>
+        <div class="overlay"></div>
+      </div>
+      <div class="home-img">
+        <!--<<img src="img/me.png" alt="" />-->
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/me.png" alt="Manuel-photo" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading">Acerca <span>de mí</span></h2>
+        <h3>Descripción</h3>
+        <p>
+          Tengo conocimientos en tecnologías de desarrollo web, administración
+          de redes y sistemas, mantenimiento de hardware y software. He formado
+          parte de proyectos donde he coordinado y planificado actividades de
+          trabajo en equipo referentes al área de Tecnologías de la Información.
+        </p>
+        <!--<a href="" class="btn">Leer mas</a>-->
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Mis <span>Servicios</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-user"></i>
+          <h3>Soporte Técnico</h3>
+          <p>
+            Experiencia en soporte técnico, mantenimiento de hardware y
+            software, instalación de sistemas operativos, entre otros.
+          </p>
+          <!--<a href="#" class="btn">Leer más</a>-->
+        </div>
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Desarrollo Web</h3>
+          <p>
+            He trabajado algunos proyetos de desarrollo web, utilizando
+            tecnologías como HTML, CSS, JavaScript, React, Node.js, entre otros.
+          </p>
+          <a href="#portfolio" class="btn">Ver más</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bx-hard-hat"></i>
+          <h3>Redes</h3>
+          <p>
+            Certificaciones en Cisco, conocimientos en configuración de redes y
+            administración de servidores.
+          </p>
+          <!--<a href="#" class="btn">Leer más</a>-->
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Últimos <span>Proyectos</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="img/todo.jpg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>To-Do List</h4>
+            <p>Trabajado con React y autenticación de usuarios con Firebase.</p>
+            <a href="https://todo-list-475cc.web.app"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/bakery.jpg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Sistema para Órdenes</h4>
+            <p>Registro de órdenes para pastelería, utilizando PHP.</p>
+            <a href="#"><i class="bx bx-link"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="img/uchuqa.jpg" alt="portfolio" />
+          <div class="portfolio-layer">
+            <h4>Plataforma para Emprendedores</h4>
+            <p>
+              Uchuqa, plataforma para emprendedores. Trabajo colaborativo con
+              tecnologías de desarrollo React, Node.js y SQL.
+            </p>
+            <a href="https://aspire.retos.co/ecosistema/retos/active/288/"
+              ><i class="bx bx-link"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="testimonial-container">
+      <h2 class="heading">Algunas <span>Referencias</span></h2>
+      <div class="testimonial-wrapper">
+        <div class="testimonial-box mySwiper">
+          <div class="testimonial-content swiper-wrapper">
+            <div class="testimonial-slide swiper-slide">
+              <img src="img/wacuxulic.jpg" alt="Wilson-photo" />
+              <h3>Wilson Chalí</h3>
+              <p>
+                Manuel es una persona excepcional, siempre dispuesto a ayudar y aprender. Ha demostrado ser un excelente compañero de trabajo.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="img/francisco.jpeg" alt="Fracisco-photo" />
+              <h3>Francisco Ramirez</h3>
+              <p>
+                Su ética de trabajo es ejemplar, demuestra dedicación y compromiso en cada proyecto que realiza.
+              </p>
+            </div>
+            <div class="testimonial-slide swiper-slide">
+              <img src="img/yordi.jpg" alt="Yordi-photo" />
+              <h3>Yordi Yach</h3>
+              <p>
+                Es un placer trabajar con Manuel en equipo, su capacidad para resolver problemas y su actitud positiva son cualidades que lo hacen destacar.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contáctame <span>acá</span></h2>
+      <form action="#" id="form">
+        <div class="input-box">
+          <input
+            required
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Nombre Completo"
+          />
+          <input
+            required
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Correo Electrónico"
+          />
+        </div>
+        <div class="input-box">
+          <input
+            required
+            type="number"
+            placeholder="Teléfono"
+            id="number"
+            name="number"
+          />
+          <input
+            type="text"
+            placeholder="Asunto"
+            id="thesubject"
+            name="thesubject"
+          />
+        </div>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Mensaje"
+        ></textarea>
+        <button type="submit" class="btn">Enviar Mensaje</button>
+      </form>
+      <a href="mailto:manuel.ajanel31@gmail.com" id="mymail"></a>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 por Manuel | Todos los derechos reservados.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script>
+      const $form = document.querySelector("#form");
+      const $buttonMailto = document.querySelector("#mymail");
+
+      $form.addEventListener("submit", handleSubmit);
+
+      function handleSubmit(event) {
+        event.preventDefault();
+        const form = new FormData(this);
+        $buttonMailto.setAttribute(
+          "href",
+          `mailto:manuel.ajanel31@gmail.com?subject=${form.get(
+            "thesubject"
+          )} - ${form.get("name")} &body=${form.get("message")}%0D%0A
+          Correo: ${form.get("email")}%0D%0A
+          Contacto: ${form.get("number")}`
+        );
+        $buttonMailto.click();
+      }
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
